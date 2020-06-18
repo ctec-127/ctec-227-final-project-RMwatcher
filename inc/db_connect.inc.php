@@ -7,4 +7,3 @@ if ($db->connect_error) {
     echo $error;
 }
 $db->set_charset('utf8');
-return $db;

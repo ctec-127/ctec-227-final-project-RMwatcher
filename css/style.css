@@ -1,0 +1,64 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.review {
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: #cfaa8e;
+}
+
+.delete {
+    position: absolute;
+    margin-top: 47px;
+    margin-left: 600px;
+}
+
+.fa-chalkboard-teacher {
+    font-size: 4rem;
+    margin-top: 1em;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.review_results {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px auto;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+
+a:hover {
+    color: rgb(3, 44, 156);
+}
+
+#showPassword {
+    text-decoration: underline;
+    font-size: .78em;
+}
+
+#showPassword:hover {
+    cursor: pointer;
+}
+
+.about {
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+
+.sign_up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.schools {
+    margin-top: 3em;
+}
